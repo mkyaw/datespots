@@ -9,11 +9,11 @@
 <body>
 
   <% if notice.present? %>
-    <p><%= render notice %></p>
+    <p><strong><%= notice %></strong></p>
   <% end %>
 
   <% if alert.present? %>
-    <p><%= render alert %></p>
+    <p><em><%= alert %></em></p>
   <% end %>
 
 <%= yield %>
